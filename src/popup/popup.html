@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tiinex Operator Aid</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <p class="eyebrow">Tiinex Chrome host</p>
+        <h1>Operator Aid</h1>
+      </div>
+      <button id="arm" class="secondary">Arm page</button>
+    </header>
+
+    <section aria-labelledby="benchmark-title">
+      <div class="section-heading">
+        <h2 id="benchmark-title">Run benchmark</h2>
+        <span id="run-status" class="pill">Idle</span>
+      </div>
+      <p class="hint">Measures browser-observed time between Play and Finish. It does not claim model-internal timing.</p>
+      <div class="button-row">
+        <button id="play">Play</button>
+        <button id="finish">Finish</button>
+        <button id="reset" class="secondary">Reset</button>
+      </div>
+      <dl class="metrics">
+        <div><dt>Started</dt><dd id="started">—</dd></div>
+        <div><dt>Finished</dt><dd id="finished">—</dd></div>
+        <div><dt>Elapsed</dt><dd id="elapsed">—</dd></div>
+      </dl>
+    </section>
+
+    <section aria-labelledby="observation-title">
+      <div class="section-heading">
+        <h2 id="observation-title">Observed condition</h2>
+        <span id="observation-status" class="pill">None</span>
+      </div>
+      <p class="hint">These labels report an operator or page event only; the extension does not infer hidden safety or runtime state.</p>
+      <div class="button-grid">
+        <button data-observation="slow-run" class="secondary">Slow signal</button>
+        <button data-observation="safety-check" class="secondary">Safety-check signal</button>
+        <button data-observation="delayed-run" class="secondary">Delayed signal</button>
+        <button data-observation="clear" class="secondary">Clear</button>
+      </div>
+      <p id="observation-detail" class="status-line">No observable condition recorded.</p>
+    </section>
+
+    <section aria-labelledby="handoff-title">
+      <h2 id="handoff-title">Handoff package</h2>
+      <p class="hint">Explicit downloads are deduped by the exact identity below. Automatic downloads are opt-in and require an armed page-reported qualified-result event.</p>
+      <label>
+        Exact package identity
+        <input id="package-identity" type="text" autocomplete="off" placeholder="opaque qualified result identity">
+      </label>
+      <label>
+        Package URL
+        <input id="package-url" type="url" autocomplete="off" placeholder="https://…/handoff-package.zip">
+      </label>
+      <label class="toggle">
+        <input id="auto-download" type="checkbox">
+        <span>Auto-download armed page-reported qualified results</span>
+      </label>
+      <button id="download">Download once</button>
+      <p id="handoff-status" class="status-line">No Handoff download activity yet.</p>
+    </section>
+
+    <footer id="bridge-status">Page bridge not armed in this popup session.</footer>
+  </main>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

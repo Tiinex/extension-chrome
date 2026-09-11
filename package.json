@@ -1,0 +1,15 @@
+{
+  "name": "@tiinex/extension-chrome",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Bounded Chrome host for observable Tiinex operator workflows.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "validate": "npm test"
+  },
+  "engines": {
+    "node": ">=22.14"
+  }
+}
