@@ -11,25 +11,25 @@
   - Current Schema: [tiinex.task.v1](https://github.com/Tiinex/docs/blob/053d46ce082d4ec261b82abc44ecca403d61e240/.topics/.schemas/core/task/tiinex.task.v1.schema.md)
   - Created At: 2026-09-09 16:51:17
   - Authors: Anchor
-  - Why: Keep Chrome integration thin before implementation pressure creates copied/shared logic.
-  - Summary: Minimal browser-extension host boundary over public Tiinex contracts.
+  - Why: Give the new extension repo an isolated repeatable quality gate before automation scope grows.
+  - Summary: Fast packaging/host boundary checks without pretending to full product acceptance.
   - Status: ready/local
 
 ---
 
-# Chrome host contract
+# Chrome extension qualification
 
 ## Objective
-Define the minimal browser-extension host surface before implementation.
+Define fast host and packaging checks before browser automation grows.
 
 ## Scope
-Browser capability projection, Workspace/material interaction, capture boundaries and host-to-runtime/Interop bridging.
+Extension manifest/build integrity, bounded host smoke, capability isolation and no semantic/provider implementation copies.
 
 ## Dependencies
-Parent Extension Chrome foundation Task and public App/Core/Interop/Runtime boundaries.
+Parent Extension Chrome foundation Task and Chrome host contract subtask.
 
 ## Done Criteria
-The extension can remain thin and environment-specific automation is injected rather than embedded.
+A small repeatable gate detects broken host boundaries without pretending to be full browser-product acceptance.
 
 ---
 
@@ -37,8 +37,8 @@ The extension can remain thin and environment-specific automation is injected ra
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [001-extension-chrome-foundation.trace.md](../001-extension-chrome-foundation.trace.md)
-  - Value: bgR_GKRNNgPqk7HltQZSnVhVnMI5qNRNiS110ZyJHxU
+  - Value: eDzbClUMglg_N3N3Ambe2bmtjl2EWaJSo9rSAudxN1A
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: kMKPyRZ0IWGfu-tF1UzyhAYOOUvyQCwdn3uEd0J1s44
+  - Value: VjMFpxC_Net_kJlo2GaVJhzZXPk-FKL1A4pqVLOs96k

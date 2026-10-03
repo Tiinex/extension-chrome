@@ -4,9 +4,9 @@
 - Parent
   - Parent Schema: [tiinex.task.v1](https://github.com/Tiinex/docs/blob/053d46ce082d4ec261b82abc44ecca403d61e240/.topics/.schemas/core/task/tiinex.task.v1.schema.md)
   - Created At: 2026-09-09 16:51:17
-  - Trace: [001-chrome-extension-qualification.trace.md](../../refactor/qualification/001-chrome-extension-qualification.trace.md)
+  - Trace: [001-chrome-extension-qualification.trace.md](../../work/refactor/qualification/001-chrome-extension-qualification.trace.md)
   - Origin:
-    - [relative](../../refactor/qualification/001-chrome-extension-qualification.trace.md)
+    - [relative](../../work/refactor/qualification/001-chrome-extension-qualification.trace.md)
 - Current
   - Current Schema: [tiinex.task.v1](https://github.com/Tiinex/docs/blob/302506f90537dc23d6f88ad0bd0bb9c97c6cf9f6/.topics/.schemas/core/task/tiinex.task.v1.schema.md)
   - Created At: 2026-10-03 10:02:55
@@ -45,9 +45,9 @@ Reduce the exact qualified terminal/superseded Extension Chrome orchestration br
 # Continuity Integrity
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
-  - Towards: [001-chrome-extension-qualification.trace.md](../../refactor/qualification/001-chrome-extension-qualification.trace.md)
-  - Value: e_wbJvoHwDADjoDp8EHoaSclp_FuqYPlGbdAU9mlcB4
+  - Towards: [001-chrome-extension-qualification.trace.md](../../work/refactor/qualification/001-chrome-extension-qualification.trace.md)
+  - Value: VjMFpxC_Net_kJlo2GaVJhzZXPk-FKL1A4pqVLOs96k
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: MtfvFvPeQzTF5o7IrvnGlX_XKAtKvxr16MN0wSFhMcQ
+  - Value: RTpLa9HGQo7zrkP1JU-b-6GZbHO7FymhpUZ9k1tsxWg

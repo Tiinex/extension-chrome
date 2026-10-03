@@ -66,4 +66,4 @@ The local tests cover benchmark state transitions, observation-only status handl
 
 ## Boundary
 
-This repository remains the Chrome host frontier. Shared semantics and Handoff mechanics stay in Docs/Core; OpenAI-specific browser behavior stays in Interop OpenAI. The historical `.topics/refactor/001-extension-chrome-foundation.trace.md` Parent uses the known older cross-Workspace locator pattern, so this tranche intentionally adds no new extension-local Tiinex artifact lineage.
+This repository remains the Chrome host frontier. Shared semantics and Handoff mechanics stay in Docs/Core; OpenAI-specific browser behavior stays in Interop OpenAI. The extension-local Tiinex lineage now lives under `.topics/work/refactor/`. During Scaffold migration, the foundation Parent was repaired from the older malformed cross-Workspace locator form to an exact commit-pinned Business recovery reference; immutable historical Reduction permalinks intentionally keep their original `.topics/refactor/...` coordinates.
