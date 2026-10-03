@@ -1,5 +1,9 @@
 extension-chrome
 
-First-party Chrome extension for Tiinex — browser-hosted Workspace interaction, artifact capture, grounding support and bounded automation over Tiinex App, Core and Interop contracts.
+First-party Chrome extension host for Tiinex — browser-hosted operator support over public Tiinex boundaries.
 
-Grounding boundary: follow repository-local Tasks under .topics/refactor and the controlling Business extension frontier. OpenAI-specific behavior belongs in interop-openai; semantic and shared mechanics remain outside this host.
+Grounding boundary:
+- Start from `.topics/.workspaces/tiinex-extension-chrome.workspace.md` and `.topics/reductions/workspace/010-extension-chrome-fresh-start-reduction.trace.md`.
+- Historical refactor work was reduced during Major 017; no historical refactor-path Task is current. New Chrome work starts from a new explicit bounded Task with truthful Project ancestry.
+- OpenAI-specific behavior belongs in `interop-openai`; shared semantics and mechanics remain in their owning Core/App/Interop boundaries.
+- Do not infer current work from README prose, removed paths, Git age, or an old ready/local leaf.
