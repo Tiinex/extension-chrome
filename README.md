@@ -66,4 +66,4 @@ The local tests cover benchmark state transitions, observation-only status handl
 
 ## Boundary
 
-This repository remains the Chrome host frontier. Shared semantics and Handoff mechanics stay in Docs/Core; OpenAI-specific browser behavior stays in Interop OpenAI. Major 017 reduced the historical extension execution/refactor lineage; no historical refactor-path Task is current. The current durable orientation surface is the Workspace descriptor plus `.topics/reductions/workspace/010-extension-chrome-fresh-start-reduction.trace.md`. Future Chrome work starts from a new explicit bounded Task with truthful Project ancestry rather than reviving a removed historical path.
+This repository remains the Chrome host frontier. Shared semantics and Handoff mechanics stay in Docs/Core; OpenAI-specific browser behavior stays in Interop OpenAI. Historical execution remains recoverable through qualified Tiinex material, while current work is discovered through Tiinex rather than selected by README prose.

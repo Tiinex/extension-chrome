@@ -1,9 +1,7 @@
-extension-chrome
+# Tiinex/extension-chrome LLM Bootstrap
 
-First-party Chrome extension host for Tiinex — browser-hosted operator support over public Tiinex boundaries.
+This repository uses Tiinex. `.topics/**` and qualified source material are semantic/provenance authority; this file is only a bootstrap hint.
 
-Grounding boundary:
-- Start from `.topics/.workspaces/tiinex-extension-chrome.workspace.md` and `.topics/reductions/workspace/010-extension-chrome-fresh-start-reduction.trace.md`.
-- Historical refactor work was reduced during Major 017; no historical refactor-path Task is current. New Chrome work starts from a new explicit bounded Task with truthful Project ancestry.
-- OpenAI-specific behavior belongs in `interop-openai`; shared semantics and mechanics remain in their owning Core/App/Interop boundaries.
-- Do not infer current work from README prose, removed paths, Git age, or an old ready/local leaf.
+Use Tiinex Tooling to discover and qualify the Workspace entrypoint under `.topics/.workspaces`, then follow only the qualified artifacts and processes applicable to the current task.
+
+Do not use `llms.txt` or `README.md` as an artifact index, current-work declaration, or substitute for Tiinex discovery/grounding.
